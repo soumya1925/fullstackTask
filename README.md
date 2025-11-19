@@ -1,7 +1,7 @@
 # Task Manager API Backend
 
-// This is a Node.js + Express + MongoDB backend API for a Task Management application.
-// It supports auto-registration/login, JWT authentication, and CRUD operations for tasks.
+-This is a Node.js + Express + MongoDB backend API for a Task Management application.
+-It supports auto-registration/login, JWT authentication, and CRUD operations for tasks.
 
 # Deployment URL(API):
 https://fullstacktask-974k.onrender.com
