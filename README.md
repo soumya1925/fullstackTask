@@ -5,6 +5,7 @@
 
 # Deployment URL(API):
 https://fullstacktask-974k.onrender.com
+-check api endpoints below  where how to  use this api is explained in more detail
 
 ---
 
@@ -85,31 +86,33 @@ npm start
 
 ---
 
-API Endpoints
-Authentication
-// POST /api/auth/login
-// Body: { name, email, password }
-// Auto-registers if email not found, otherwise logs in
-// POST /api/auth/logout
-// Logs out the user (frontend removes token)
-Tasks (Require JWT Token in Authorization Header)
-// POST /api/tasks
-// Body: { title, description, status }
-// Create a new task
-// GET /api/tasks
-// Get all tasks for logged-in user
-// GET /api/tasks/:id
-// Get a single task by ID
-// PUT /api/tasks/:id
-// Body: { title?, description?, status? }
-// Update task by ID
-// DELETE /api/tasks/:id
-// Delete task by ID
-Testing API with Postman
+API Endpoints:(BASE URL:https://fullstacktask-974k.onrender.com)
+#Authentication
+
+-POST /api/auth/login
+-Body: { name, email, password }
+-Auto-registers if email not found, otherwise logs in
+-POST /api/auth/logout
+-Logs out the user (frontend removes token)
+
+#Tasks (Require JWT Token in Authorization Header)
+-POST /api/tasks
+-Body: { title, description, status }
+-Create a new task
+-GET /api/tasks
+-Get all tasks for logged-in user
+-GET /api/tasks/:id
+-Get a single task by ID
+-PUT /api/tasks/:id
+-Body: { title?, description?, status? }
+-Update task by ID
+-DELETE /api/tasks/:id
+-Delete task by ID
+-Test this API with Postman
 
 // You can test the deployed API using Postman:
 
-// 1. Login / Auto-register POST https://fullstacktask-974k.onrender.com/api/auth/login Body (JSON):
+1. Login / Auto-register POST https://fullstacktask-974k.onrender.com/api/auth/login Body (JSON):
 
 {
   "name": "Prem Sarkar",
@@ -117,9 +120,9 @@ Testing API with Postman
   "password": "Rljdy%$1245"
 }
 
-// 2. Logout POST https://fullstacktask-974k.onrender.com/api/auth/logout
+2. Logout POST https://fullstacktask-974k.onrender.com/api/auth/logout
 
-// 3. Create a Task (Requires Authorization header Bearer <token>) POST https://fullstacktask-974k.onrender.com/api/tasks Body (JSON):
+3. Create a Task (Requires Authorization header Bearer <token>) POST https://fullstacktask-974k.onrender.com/api/tasks Body (JSON):
 
 {
   "title": "Finish Project",
@@ -127,13 +130,13 @@ Testing API with Postman
   "status": "pending"
 }
 
-// 4. Get All Tasks GET https://fullstacktask-974k.onrender.com/api/tasks Headers: Authorization: Bearer <token>
+4. Get All Tasks GET https://fullstacktask-974k.onrender.com/api/tasks Headers: Authorization: Bearer <token>
 
-// 5. Get Single Task by ID GET https://fullstacktask-974k.onrender.com/api/tasks/<task_id> Headers: Authorization: Bearer <token>
+5. Get Single Task by ID GET https://fullstacktask-974k.onrender.com/api/tasks/<task_id> Headers: Authorization: Bearer <token>
 
-// 6. Update Task PUT https://fullstacktask-974k.onrender.com/api/tasks/<task_id> Headers: Authorization: Bearer <token> Body (JSON): { "status": "completed" }
+6. Update Task PUT https://fullstacktask-974k.onrender.com/api/tasks/<task_id> Headers: Authorization: Bearer <token> Body (JSON): { "status": "completed" }
 
-// 7. Delete Task DELETE https://fullstacktask-974k.onrender.com/api/tasks/<task_id> Headers: Authorization: Bearer <token>
+7. Delete Task DELETE https://fullstacktask-974k.onrender.com/api/tasks/<task_id> Headers: Authorization: Bearer <token>
 
 Notes
 
@@ -148,6 +151,4 @@ Notes
 
 ---
 
-## License
 
-// MI
