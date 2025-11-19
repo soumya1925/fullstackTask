@@ -32,7 +32,7 @@ check api endpoints below  where how to  use this api is explained in more detai
 
 ---
 
-## Folder Structure
+## Base Folder Structure
 
 ```
 fullstackTask/
