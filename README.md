@@ -7,24 +7,24 @@
 
 ## Features
 
-// - Auto-register user if email not found during login
-// - JWT-based authentication
-// - Create, Read, Update, Delete tasks
-// - Task schema: title, description, status, timestamps
-// - Protected routes (user must be logged in)
-// - Mobile-friendly design support for frontend
+- Auto-register user if email not found during login
+- JWT-based authentication
+- Create, Read, Update, Delete tasks
+- Task schema: title, description, status, timestamps
+- Protected routes (user must be logged in)
+- Mobile-friendly design support for frontend
 
 ---
 
 ## Tech Stack
 
-// - Node.js
-// - Express
-// - MongoDB Atlas
-// - Mongoose
-// - bcryptjs
-// - jsonwebtoken
-// - dotenv
+- Node.js
+- Express
+- MongoDB Atlas
+- Mongoose
+- bcryptjs
+- jsonwebtoken
+- dotenv
 
 ---
 
