@@ -4,8 +4,8 @@
 // It supports auto-registration/login, JWT authentication, and CRUD operations for tasks.
 
 # Deployment URL(API):
--https://fullstacktask-974k.onrender.com
--check api endpoints below  where how to  use this api is explained in more detail
+https://fullstacktask-974k.onrender.com
+check api endpoints below  where how to  use this api is explained in more detail
 
 ---
 
