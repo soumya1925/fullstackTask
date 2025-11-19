@@ -86,7 +86,7 @@ npm start
 
 ---
 
-API Endpoints:(BASE URL:https://fullstacktask-974k.onrender.com)
+#API Endpoints:(BASE URL:https://fullstacktask-974k.onrender.com)
 #Authentication
 
 -POST /api/auth/login
@@ -110,7 +110,7 @@ API Endpoints:(BASE URL:https://fullstacktask-974k.onrender.com)
 -Delete task by ID
 -Test this API with Postman
 
-// You can test the deployed API using Postman:
+# You can test the deployed API using Postman:
 
 1. Login / Auto-register POST https://fullstacktask-974k.onrender.com/api/auth/login Body (JSON):
 
@@ -140,14 +140,14 @@ API Endpoints:(BASE URL:https://fullstacktask-974k.onrender.com)
 
 Notes
 
-// - Make sure your .env file is never uploaded to GitHub // - Use Postman or frontend to test APIs // - Frontend should include Authorization header: Bearer <token>
+- Make sure your .env file is never uploaded to GitHub // - Use Postman or frontend to test APIs // - Frontend should include Authorization header: Bearer <token>
 ---
 
 ## Notes
 
-// - Make sure your `.env` file is never uploaded to GitHub
-// - Use Postman or frontend to test APIs
-// - Frontend should include Authorization header: `Bearer <token>`
+- Make sure your `.env` file is never uploaded to GitHub
+- Use Postman or frontend to test APIs
+- Frontend should include Authorization header: `Bearer <token>`
 
 ---
 
